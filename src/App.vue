@@ -1,19 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <gif-component></gif-component>
+    <single-gif-comp />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GifComponent from "./components/GifComponent";
+import singleGifComp from "./components/singleGifComp.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "app",
+  components: { GifComponent, singleGifComp },
+};
 </script>
 
 <style>
@@ -21,8 +20,5 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
