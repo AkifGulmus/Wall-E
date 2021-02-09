@@ -1,17 +1,15 @@
 <template>
   <div id="app">
     <gif-component></gif-component>
-    <single-gif-comp />
   </div>
 </template>
 
 <script>
 import GifComponent from "./components/GifComponent";
-import singleGifComp from "./components/singleGifComp.vue";
 
 export default {
   name: "app",
-  components: { GifComponent, singleGifComp },
+  components: { GifComponent },
 };
 </script>
 
