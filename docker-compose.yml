@@ -1,0 +1,14 @@
+version: "3"
+services:
+  client:
+    container_name: wall-e-client
+    restart: always
+    build: ./client
+    ports:
+      - "8080:8080"
+  server:
+    container_name: wall-e-server
+    restart: always
+    build: ./server
+    ports:
+      - "5000:5000"
