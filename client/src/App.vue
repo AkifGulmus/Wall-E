@@ -1,15 +1,12 @@
 <template>
   <div id="app">
-    <gif-component></gif-component>
+    <router-view> </router-view>
   </div>
 </template>
 
 <script>
-import GifComponent from "./components/GifComponent";
-
 export default {
   name: "app",
-  components: { GifComponent },
 };
 </script>
 
