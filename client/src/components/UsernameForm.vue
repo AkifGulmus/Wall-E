@@ -24,6 +24,7 @@ import state from "../store/username-state";
 export default {
   methods: {
     async setUsername(username) {
+      username = username.toLowerCase();
       state.username = username;
       await fetch(`http://localhost:5000/${state.username}`, {
         method: "POST",
