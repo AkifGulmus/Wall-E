@@ -46,8 +46,16 @@ Enjoyed and learned a lot and working on this and hope you do too. Happy coding 
 * [Vue.js](https://vuejs.org/)
 * [Express.js](https://expressjs.com/)
 * [Jest](https://jestjs.io/)
+* Deployment : [Kubernetes](https://kubernetes.io/) using [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)
+* 
 
 # Try It Out!
 
+For a limited time the site is available at http://34.68.72.210/ but it won't be there forever so be quick and don't miss out ! If the site is unavailable, you can always follow the instructions below.
+
 You can quickly get your hands on the project and try it out for yourself. Once you have [Docker](https://www.docker.com/get-started), just clone this repository, `cd` into its main directory where the ```docker-compose.yml``` is located and you're one ```docker-compose up -d``` away from this beauty ! It should be available for you at http://localhost:8080/ .
+
+If you'd like to try out the backend API and send requests yourself, it's also available for a limited time at http://35.202.208.75:5000/ . 
+
+
 
