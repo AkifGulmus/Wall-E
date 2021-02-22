@@ -28,7 +28,7 @@ It might hopefully be helpful for those who are also getting started on web app 
 
 ![main-page-screenshot](https://user-images.githubusercontent.com/52625118/108173430-2d191a00-710f-11eb-9b38-4e1341eed874.png)
 
-Using Giphy's trending gifs API endpoint, it fetches the most trending 5 gifs on Giphy at the moment and displays them in an ordered fashion. When any of the gifs get clicked on, user is directed to the original Giphy page that the gif came from. 
+Using Giphy's trending gifs API endpoint, it fetches the most trending 7 gifs on Giphy at the moment and displays them in an ordered fashion. When any of the gifs get clicked on, user is directed to the original Giphy page that the gif came from. 
 
 At the top of the page, there is a form that prompts the user to set a username to customize which gifs they want to see. The link just below the form that dynamically updates as the user types, directs the user to another page with the gifs that they 
 liked using the "Like this gif" button below each gif. On this personal page, user can click the "Unlike this gif" buttons if they change their mind about a gif and the page updates accordingly. Functionality and UI-wise, that's all. 
@@ -47,7 +47,7 @@ Enjoyed and learned a lot and working on this and hope you do too. Happy coding 
 * [Express.js](https://expressjs.com/)
 * [Jest](https://jestjs.io/)
 * Deployment : [Kubernetes](https://kubernetes.io/) using [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine)
-* 
+
 
 # Try It Out!
 
