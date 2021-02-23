@@ -7,44 +7,11 @@ metadata:
     - apiVersion: apps/v1
       fieldsType: FieldsV1
       fieldsV1:
-        "f:metadata":
-          "f:labels":
-            .: {}
-            "f:app": {}
         "f:spec":
-          "f:progressDeadlineSeconds": {}
-          "f:replicas": {}
-          "f:revisionHistoryLimit": {}
-          "f:selector":
-            "f:matchLabels":
-              .: {}
-              "f:app": {}
-          "f:strategy":
-            "f:rollingUpdate":
-              .: {}
-              "f:maxSurge": {}
-              "f:maxUnavailable": {}
-            "f:type": {}
           "f:template":
-            "f:metadata":
-              "f:labels":
-                .: {}
-                "f:app": {}
             "f:spec":
               "f:containers":
                 'k:{"name":"wall-e-client-sha256-1"}':
-                  .: {}
-                  "f:image": {}
-                  "f:imagePullPolicy": {}
-                  "f:name": {}
-                  "f:resources": {}
-                  "f:terminationMessagePath": {}
-                  "f:terminationMessagePolicy": {}
-              "f:dnsPolicy": {}
-              "f:restartPolicy": {}
-              "f:schedulerName": {}
-              "f:securityContext": {}
-              "f:terminationGracePeriodSeconds": {}
       manager: GoogleCloudConsole
       operation: Update
       time: "2021-02-22T07:18:14Z"
@@ -53,32 +20,6 @@ metadata:
       fieldsV1:
         "f:metadata":
           "f:annotations":
-            .: {}
-            "f:deployment.kubernetes.io/revision": {}
-        "f:status":
-          "f:availableReplicas": {}
-          "f:conditions":
-            .: {}
-            'k:{"type":"Available"}':
-              .: {}
-              "f:lastTransitionTime": {}
-              "f:lastUpdateTime": {}
-              "f:message": {}
-              "f:reason": {}
-              "f:status": {}
-              "f:type": {}
-            'k:{"type":"Progressing"}':
-              .: {}
-              "f:lastTransitionTime": {}
-              "f:lastUpdateTime": {}
-              "f:message": {}
-              "f:reason": {}
-              "f:status": {}
-              "f:type": {}
-          "f:observedGeneration": {}
-          "f:readyReplicas": {}
-          "f:replicas": {}
-          "f:updatedReplicas": {}
       manager: kube-controller-manager
       operation: Update
       time: "2021-02-23T08:26:07Z"
@@ -117,24 +58,10 @@ metadata:
     - apiVersion: v1
       fieldsType: FieldsV1
       fieldsV1:
-        "f:metadata":
-          "f:labels":
-            .: {}
-            "f:app": {}
         "f:spec":
-          "f:externalTrafficPolicy": {}
           "f:ports":
             .: {}
             'k:{"port":80,"protocol":"TCP"}':
-              .: {}
-              "f:port": {}
-              "f:protocol": {}
-              "f:targetPort": {}
-          "f:selector":
-            .: {}
-            "f:app": {}
-          "f:sessionAffinity": {}
-          "f:type": {}
       manager: GoogleCloudConsole
       operation: Update
       time: "2021-02-22T07:23:58Z"
